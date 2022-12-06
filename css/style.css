@@ -185,7 +185,7 @@ h6,
     
     .sticky-top.navbar-dark {
         position: fixed;
-        background: #f4f4f2;
+        background: #FFF;
     }
 
     .navbar-dark .navbar-nav .nav-link::before {
