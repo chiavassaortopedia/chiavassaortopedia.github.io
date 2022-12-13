@@ -1,7 +1,7 @@
 /********** Template CSS **********/
 :root {
-    --primary: #08a5dc;
-    --secondary: #08a5dc;
+    --primary: #06A3DA;
+    --secondary: #34AD54;
     --light: #EEF9FF;
     --dark: #091E3E;
 }
@@ -130,7 +130,7 @@ h6,
     margin-left: 25px;
     padding: 35px 0;
     color: #FFFFFF;
-    font-size: 16gpx;
+    font-size: 18px;
     font-weight: 600;
     outline: none;
     transition: .5s;
@@ -143,7 +143,7 @@ h6,
 
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link.active {
-    color: var(--secondary);
+    color: var(--primary);
 }
 
 .navbar-dark .navbar-brand h1 {
@@ -151,8 +151,8 @@ h6,
 }
 
 .navbar-dark .navbar-toggler {
-    color: var(--secondary) !important;
-    border-color: var(--secondary) !important;
+    color: var(--primary) !important;
+    border-color: var(--primary) !important;
 }
 
 @media (max-width: 991.98px) {
@@ -185,7 +185,7 @@ h6,
     
     .sticky-top.navbar-dark {
         position: fixed;
-        background: #a7b4c3;
+        background: #FFFFFF;
     }
 
     .navbar-dark .navbar-nav .nav-link::before {
